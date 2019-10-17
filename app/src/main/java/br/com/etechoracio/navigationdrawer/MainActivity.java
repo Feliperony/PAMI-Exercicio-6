@@ -107,7 +107,6 @@ public class MainActivity extends AppCompatActivity
         }
 
 
-
         Fragment fragment = CustomFragment.newInstance(nome, idImage);
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         transaction.replace(R.id.content_frame, fragment);
